@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+    <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+  
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.0.0/lib/addons/p5.sound.min.js"></script>
+  
+    <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/addons/p5.sound.min.js"></script>
+    
+    <title>DJ IA</title>
+</head>
+<body>
+   <div class="container">
+    <h2>DJ IA</h2>
+    <div class="note"><span>
+        NOTA - Mova o pulso esquerdo para cima e para baixo para aumentar e diminuir o volume Mova o pulso direito para cima e para baixo para aumentar e diminuir a velocidade.
+    </span></div>
+    <div class="speed">
+        <img src="alto-falante.gif" alt="">
+        <h3>Speed <spam id="velocidade"></spam></h3>
+    </div>
+    <div class="volume">
+        <img src="alto-falante.gif" alt="">
+        <h3>Volume <spam id="volume"></spam></h3>
+    </div>
+    <button onclick="play()">Play</button>
+   </div>
+    <script src="main.js"></script>
+</body>
+</html>
